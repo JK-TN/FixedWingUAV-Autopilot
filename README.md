@@ -1,5 +1,5 @@
 # FixedWingUAV-Autopilot
-This repository holds the files to control a fixed-wing UAV through successive loop closure. Several modules allow the testing of separate parts of the simulator and autopilot.<br /><br /><br />
+This repository holds the files to control an aerosonde fixed-wing UAV through successive loop closure. Several modules allow the testing of separate parts of the simulator and autopilot.<br /><br /><br />
 <ins>Chapter2.py:</ins> Translations and rotations of aircraft. Used for testing rotation from inertial frame to body frame.<br /><br />
 <ins>Chapter3.py:</ins> Forces and moments acting on aircraft. Used for testing aircraft dynamics.<br /><br />
 <ins>Chapter4.py:</ins> Throttle and control surfaces. Used for testing aircraft aerodynamics (specifically gravity and lift and drag forces).<br /><br />
