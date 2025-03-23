@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Jlktn\OneDrive\Desktop\tilonguy\Chapter7.py", line 332, in <module>
+    ourWindow = Chapter6()
+  File "C:\Users\Jlktn\OneDrive\Desktop\tilonguy\Chapter7.py", line 31, in __init__
+    self.simulateInstance = ece163.Simulation.Chapter7Simulate.Chapter7Simulate()
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jlktn\OneDrive\Desktop\tilonguy\ece163\Simulation\Chapter7Simulate.py", line 13, in __init__
+    self.sensorModel = self.underlyingModel.getSensorsModel()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VehicleClosedLoopControl' object has no attribute 'getSensorsModel'. Did you mean: 'getSensorModel'?
